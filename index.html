@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evermont</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="header-div">
+        <img src="assets/logo.svg" alt="logo" id="logo-img" />
+        <h2 class="syne-heading-2">Evermont</h2>
+      </div>
+
+      <nav class="frame-1" id="nav-menu">
+        <a href="#hero">Home</a>
+        <a href="#features">Services</a>
+        <a href="#contact-us" id="contact-button">Contact Us</a>
+      </nav>
+
+      <div class="frame-2">
+        <div id="hamburger" onclick="toggleMenu()">
+          <img src="assets/hamburger-icon.png" alt="menu" id="ham-icon" />
+        </div>
+
+        <div id="nav-links">
+          <a href="#hero">Home</a>
+
+          <a href="#features">Services</a>
+          <a href="#contact-us" id="contact-button">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div id="heroimage-container">
+          <!-- gradient bubble -->
+          <!-- <img class="square-gradient" src="assets\squaregradient.svg"> -->
+          <img src="assets/hero.svg" alt="hero img" id="heroimg" />
+        </div>
+
+        <div id="hero-text">
+          <h1 class="syne-heading-1">
+            Connecting you with Top Technology Service Providers
+          </h1>
+          <h2 class="opensans-heading-2">Contact Us &rarr;</h2>
+        </div>
+      </div>
+
+      <!-- ABOUT Section -->
+      <div class="about-container">
+        <h2 id="about-heading">About Us</h2>
+        <div class="about-body">
+          <p>
+            Evermont allows you to browse and connect with trusted technology
+            service, providers tailored to your business needs.
+          </p>
+          <p>
+            All listed providers are vetted and reviewed by our community for
+            quality and reliability.
+          </p>
+        </div>
+        <img class="round-gradient" src="assets/round-g-grad.svg" />
+      </div>
+
+      <!-- EXPLORE Section -->
+      <div class="explore-container">
+        <h2 id="explore-heading">Explore Our Features</h2>
+        <p class="explore-body">
+          From app development to digital marketing, discover a range of
+          services to boo your business efficiency.
+        </p>
+        <br />
+
+        <hr width="100%" size="3" color="black" />
+
+        <!-- 1st -->
+        <div class="explore-box">
+          <div class="explore-box-1">
+            <h3 class="content-heading">Founding essentials</h3>
+            <p class="explore-content">
+              Empowering Future Unicorns through Strategic Storytelling! Craft
+              compelling narratives with our expertly designed pitch decks to
+              secure your next investment.
+            </p>
+            <p id="extra-content-1">
+              Empowering Future Unicorns through Strategic Storytelling! Craft
+              compelling narratives with our expertly designed pitch decks to
+              secure your next investment.Empowering Future Unicorns through
+              Strategic Storytelling! Craft compelling narratives with our
+              expertly designed pitch decks to secure your next
+              investment.Empowering Future Unicorns through Strategic
+              Storytelling! Craft compelling narratives with our expertly
+              designed pitch decks to secure your next investment.Empowering
+              Future Unicorns through Strategic Storytelling! Craft compelling
+              narratives with our expertly designed pitch decks to secure your
+              next investment.Empowering Future Unicorns through Strategic
+              Storytelling! Craft compelling narratives with our expertly
+              designed pitch decks to secure your
+            </p>
+          </div>
+          <img
+            src="assets/plus-icon.png"
+            class="plus-icon"
+            onclick="toggleFeatures('extra-content-1')"
+          />
+        </div>
+
+        <br />
+        <hr width="100%" size="3" color="black" />
+
+        <!-- 2 -->
+        <div class="explore-box">
+          <div class="explore-box-1">
+            <h3 class="content-heading">Connect with Service Providers</h3>
+            <p class="explore-content">
+              Facilitates connections between companies offering services and
+              those in need. Explore unlimited potential service providers
+              tailored to your business needs.
+            </p>
+            <p id="extra-content-2">
+              Craft compelling narratives with our expertly designed pitch decks
+              to secure your next investment.Empowering Future Unicorns through
+              Strategic Storytelling! Craft compelling narratives with our
+              expertly designed pitch decks to secure your
+            </p>
+          </div>
+          <img
+            src="assets/plus-icon.png"
+            class="plus-icon"
+            onclick="toggleFeatures('extra-content-2')"
+          />
+        </div>
+
+        <br />
+        <hr width="100%" size="3" color="black" />
+
+        <!-- 3 -->
+        <div class="explore-box">
+          <div class="explore-box-1">
+            <h3 class="content-heading">Unlimited Hiring Solutions</h3>
+            <p class="explore-content">
+              Gain access to a vast pool of candidates. Hire experts and augment
+              your team with top talent sourced by Evermont.
+            </p>
+            <p id="extra-content-3">
+              Empowering Future Unicorns through Strategic Storytelling! Craft
+              compelling narratives with our expertly designed pitch decks to
+              secure your
+            </p>
+          </div>
+          <img
+            src="assets/plus-icon.png"
+            class="plus-icon"
+            onclick="toggleFeatures('extra-content-3')"
+          />
+        </div>
+
+        <br />
+        <hr width="100%" size="3" color="black" />
+
+        <!-- 4 -->
+        <div class="explore-box">
+          <div class="explore-box-1">
+            <h3 class="content-heading">1-on-1 Expert Consultations</h3>
+            <p class="explore-content">
+              Book personalized consultations with top industry experts to help
+              refine your business strategy and operations.
+            </p>
+            <p id="extra-content-4">
+              Craft compelling narratives with our expertly designed pitch decks
+              to secure your next investment.Empowering Future Unicorns through
+              Strategic Storytelling! Craft compelling narratives with our
+              expertly designed pitch decks to secure your
+            </p>
+          </div>
+          <img
+            src="assets/plus-icon.png"
+            class="plus-icon"
+            onclick="toggleFeatures('extra-content-4')"
+          />
+        </div>
+
+        <br />
+        <hr width="100%" size="3" color="black" />
+
+        <!-- 5 -->
+        <div class="explore-box">
+          <div class="explore-box-1">
+            <h3 class="content-heading">Managed Service offerings</h3>
+            <p class="explore-content">
+              Let our experienced managers oversee your outsourced projects,
+              ensuring quality and progress meets your expectations.
+            </p>
+            <p id="extra-content-5">
+              Craft compelling narratives with our expertly designed pitch decks
+              to secure your next investment.Empowering Future Unicorns through
+              Strategic Storytelling! Craft compelling narratives with our
+              expertly designed pitch decks to secure your
+            </p>
+          </div>
+          <img
+            src="assets/plus-icon.png"
+            class="plus-icon"
+            onclick="toggleFeatures('extra-content-5')"
+          />
+        </div>
+        <br />
+        <hr width="100%" size="3" color="black" />
+        <br />
+      </div>
+
+      <!-- How it works section -->
+      <div class="work-container">
+        <h2 id="about-heading">How it works</h2>
+        <p class="work-desc">
+          Evermont allows you to browse and connect with trusted technology
+          service. Providers tailored to your business needs.
+        </p>
+        <!-- Diagram goes here -->
+        <!-- 2 diagrams to be inserted, one for desktop(horiz) and mobile(vertical) -->
+      </div>
+
+      <!-- Contact Us Section -->
+      <div class="contact-container">
+        <img
+          id="contact-gradient"
+          src="assets/round-g-grad2.svg"
+          alt="Decorative gradient"
+        />
+        <h2 id="explore-heading">Contact Us</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="send-button">Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div id="f-logo">
+        <img id="footer-img-l" src="assets/logo2.svg" />
+        <h3 class="footer-h3">Evermont</h3>
+      </div>
+
+      <div id="f-acn">
+        <div id="f-address">
+          <h3 class="footer-h3">Address</h3>
+          <p class="f-text">Pimpri Chinchwad</p>
+          <p class="f-text">Pune, India</p>
+        </div>
+        <div id="f-contact">
+          <h3 class="footer-h3">Contact</h3>
+          <p class="f-text">Tel: +91 823 732 4467</p>
+          <p class="f-text">Email: connect@evermont.com</p>
+        </div>
+        <div id="f-news">
+          <h3 class="footer-h3">Newletter</h3>
+          <input id="newsletter-tbox" placeholder="Your email" />
+          <div id="socials">
+            <a href="https://www.google.com"
+              ><img src="assets/linkedin-96.png" class="socials-img"
+            /></a>
+            <!-- <a href="google.com"><img src="assets/facebook-96.png" class="socials-img"></a>
+                    <a href="google.com"><img src="assets\instagram-96.png" class="socials-img"></a> -->
+          </div>
+        </div>
+      </div>
+
+      <hr width="100%" size="3" color="black" />
+
+      <p class="f-text">Evermont &copy 2024</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
