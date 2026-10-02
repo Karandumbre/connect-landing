@@ -27,11 +27,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     return;
   }
 
-  // Simulate form submission (e.g., send data to a server)
-  console.log('Form Data:', { name, email, message });
-
-  // Show confirmation message
-  alert(`Thank you, ${name}! Your message has been sent successfully.`);
+  alert('This demo form does not send messages.');
 
   // Reset the form
   document.getElementById('contactForm').reset();
